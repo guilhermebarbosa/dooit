@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dooit</title>
+  <%= stylesheet_link_tag "scaffold" %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div class="geral">
+    <div class="topo">
+      <div class="menu">
+        <ul>
+          <li>
+          <%= link_to "HOME", root_path %>
+          </li>
+          <li>
+          <%= link_to "AGENCIA", companies_path %>
+          </li>
+          <% if false %>
+          <li>
+          <%= link_to "CLIENTES", clients_path %>
+          </li>
+          <% end %>
+          <li>
+          <%= link_to "CASES", cases_path %>
+          </li>
+          <li>
+          <%= link_to "CONTATO", new_contact_path %>
+          </li>
+        </ul>
+      </div>
+      <div class="logo">
+        <p>
+          <%= image_tag("logo.gif") %>
+        </p>
+        <% if false %>
+        <p class="image">
+          <%= image_tag("facebook.png") %>
+          <%= image_tag("twitter.png") %>
+        </p>
+        <% end %>
+      </div>
+    </div>
+    
+    <%= yield %>
+    
+    <div class="rodape">
+      <p>
+        Todos os direitos reservados
+      </p>
+    </div>
+  </div>
+</body>
+</html>

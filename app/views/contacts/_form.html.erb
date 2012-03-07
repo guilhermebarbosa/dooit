@@ -1,0 +1,65 @@
+<div class="contato">
+  <table class="telefonico" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="linha1 title">Contato via Telefone</td>
+    </tr>
+    <tr>
+      <td class="linha2">
+        <p class="telefone">
+        <span>Telefone:</span> 
+        (11) 5979-6112 <br>
+        (11) 6698-3021 <br>
+        (11) 7642-1605 <br> <br>
+        </p>
+        <p>
+        <span>Email:</span> 
+        wollase_andrade@gmail.com <br>
+        guilherme.barbosa90@gmail.com <br> <br>
+        </p>
+        <p>
+        <span>Atendimento:</span>
+        Segunda a Sexta das 9:00 as 18:00
+        </p>
+      </td>
+    </tr>
+  </table>
+  
+  <p class="ou">
+  Ou
+  </p>
+  
+  <table cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="linha1 title">Contato via Email</td>
+    </tr>
+    <tr>
+      <td class="linha2">
+        <%= form_for(@contact) do |f| %>
+          <p>
+            <%= f.label :name, "Nome" %>
+            <%= f.text_field :name %>
+          </p>
+          <p>
+            <%= f.label :email, "Email" %>
+            <%= f.text_field :email %>
+          </p>
+          <p>
+            <%= f.label :telephone, "Telefone" %>
+            <%= f.text_field :telephone %>
+          </p>
+          <p>
+            <%= f.label :subject, "Assunto" %>
+            <%= f.text_field :subject %>
+          </p>
+          <p class="textarea">
+            <%= f.label :description, "Descrição" %>
+            <%= f.text_area :description %>
+          </p>
+          <p class="button">
+            <%= f.submit "Enviar" %>
+          </p>
+        <% end %>
+      </td>
+    </tr>
+  </table>
+</div>
