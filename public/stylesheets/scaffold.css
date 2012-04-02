@@ -264,9 +264,18 @@ body div.geral div.cases
 	height: 398px;
 	background-color: #ffffff;
 }
-body div.geral div.cases img
+body div.geral div.cases p.imagem
 {
-	margin: 0 15px 15px 15px;
+	width: 530px;
+	float: left;
+}
+body div.geral div.cases p.imagem img
+{
+	margin: 65px 10px 0 20px;
+}
+body div.geral div.cases p.texto
+{
+	width: 440px;
 	float: left;
 }
 
