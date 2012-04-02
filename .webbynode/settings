@@ -1,2 +1,3 @@
+dns_alias='www.dooit.com.br'
 engine=rails3
 rails3_adapter=mysql2
