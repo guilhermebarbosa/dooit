@@ -72,12 +72,12 @@ body div.geral div.topo div.logo
 {
 	width: 1000px;
 	height: 166px;
+	background-color: #ff6600;
 	float: left;
 }
 body div.geral div.topo div.logo p
 {
 	width: 500px;
-	background-color: red;
 	padding: 43px 0 0 20px;
 }
 body div.geral div.topo div.logo p.texto
