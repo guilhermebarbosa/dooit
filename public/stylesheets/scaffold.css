@@ -116,7 +116,7 @@ body div.geral div.empresa
 {
 	width: 998px;
 	border: 1px solid #cccccc;
-	height: 281px;
+	height: 325px;
 	background-color: #ffffff;
 }		
 body div.geral div.empresa img{
@@ -125,13 +125,15 @@ body div.geral div.empresa img{
 }
 body div.geral div.empresa table
 {
-	width: 998px;
+	width: 935px;
 	padding-top: 1px;
+	margin-left: 30px;
+	margin-top: 15px;
 	float: left;
 }
 body div.geral div.empresa table tr td
 {
-	width: 965px;
+	width: 925px;
 	padding: 20px;
 }
 body div.geral div.empresa table tr td.title
