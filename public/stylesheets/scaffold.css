@@ -5,9 +5,11 @@
 
 table tr td.linha1{
 	background-color: #f0f1f2;
+	font-size: 16px;
 }
 table tr td.linha2{
 	background-color: #f9f9f9;
+	font-size: 14px;
 }
 
 body
@@ -75,7 +77,18 @@ body div.geral div.topo div.logo
 }
 body div.geral div.topo div.logo p
 {
+	width: 500px;
+	background-color: red;
 	padding: 43px 0 0 20px;
+}
+body div.geral div.topo div.logo p.texto
+{
+	width: 473px;
+	height: 20px;
+	clear: both;
+	margin: 0 0 0 47px;
+	font-size: 14px;
+	padding: 0;
 }
 body div.geral div.topo div.logo p.image
 {
@@ -104,7 +117,7 @@ body div.geral div.empresa
 {
 	width: 998px;
 	border: 1px solid #cccccc;
-	height: 308px;
+	height: 281px;
 	background-color: #ffffff;
 }		
 body div.geral div.empresa img{
@@ -113,8 +126,8 @@ body div.geral div.empresa img{
 }
 body div.geral div.empresa table
 {
-	width: 965px;
-	margin: 15px;
+	width: 998px;
+	padding-top: 1px;
 	float: left;
 }
 body div.geral div.empresa table tr td
@@ -127,7 +140,6 @@ body div.geral div.empresa table tr td.title
 	width: 965px;
 	height: 25px;
 	padding: 0 0 0 20px;
-	font-size: 14px;
 	font-weight: bold;
 }
 body div.geral div.empresa table tr td ul
@@ -188,7 +200,6 @@ body div.geral div.contato table.telefonico tr td.title
 {
 	height: 25px;
 	padding: 0 0 0 20px;
-	font-size: 14px;
 	font-weight: bold;
 }
 body div.geral div.contato table.telefonico tr td p
@@ -225,7 +236,6 @@ body div.geral div.contato table tr td.title
 {
 	height: 25px;
 	padding: 0 0 0 20px;
-	font-size: 14px;
 	font-weight: bold;
 }
 body div.geral div.contato form
@@ -241,7 +251,7 @@ body div.geral div.contato form p
 }
 body div.geral div.contato form p label
 {
-	width: 65px;
+	width: 75px;
 	float: left;
 }
 body div.geral div.contato form p textarea
